@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.css">
+
+     <!---- RESPONSIVIDADE ------>
+     <link rel="stylesheet" href="style/responsive.css">
+
+    <!---- OWL CSS------>
+    <link rel="stylesheet" href="/style/owl/owl.carousel.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <section class="tudo">
+        <header>
+            <div class="menu-esquerda">
+                <h3 class="logo">COMEDFLIX</h3>
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Recentes</a>
+                    <a href="#">Minha Lista</a>
+                </nav>
+            </div>
+            <div class="menu-direita">
+                <button role="button" class="botao-direita"><i class="fas fa-search"></i></button>
+                <button role="button" class="botao-direita"><i class="fas fa-gift"></i></button>
+                <button role="button" class="botao-direita"><i class="fas fa-bell"></i></button>
+                <a href="#"><img src="img/perfil.png" class="logo-perfil"></a>
+                <button role="button" class="botao-direita"><i class="fas fa-sort-down"></i></button>
+            </div>
+            <div class="menu-mobile">
+                <button role="button"><i class="fas fa-bars"></i></button>
+            </div>
+        </header>
+        <main>
+            <div class="filme-principal">
+                <div class="container">
+                    <h3 class="titulo">THE OFFICE</h3>
+                    <p class="descricao">Baseado na aclamada série britânica de Rick Gervais e Stephen Merchant, "The Office" segue o cotidiano dos funcionários da Dunder Mifflin, uma empresa de vendas de papel em Scranton, Pensilvânia.</p>
+                    <div class="botoes">
+                        <button role="button" class="botao" onclick="assistiragora()">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao" onclick="maisinfo()">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇOES
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="/img/min1.jpg"></div>
+            <div class="item"><img src="/img/min2.jpg"></div>
+            <div class="item"><img src="/img/min3.jpg"></div>
+            <div class="item"><img src="/img/min4.jpg"></div>
+            <div class="item"><img src="/img/min5.jpg"></div>
+            <div class="item"><img src="/img/min6.jpg"></div>
+            <div class="item"><img src="/img/min7.jpg"></div>
+            <div class="item"><img src="/img/min8.jpg"></div>
+            <div class="item"><img src="/img/min9.jpg"></div>
+            <div class="item"><img src="/img/min10.jpg"></div>
+            <div class="item"><img src="/img/min11.jpg"></div>
+            <div class="item"><img src="/img/min12.jpg"></div>
+        </div>
+    </div>
+    
+
+
+    <script class="box-filme" src="https://kit.fontawesome.com/a4a9498ddf.js" crossorigin="anonymous"></script>
+
+    <!---- OWL JS------>
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+</body>
+</html>
